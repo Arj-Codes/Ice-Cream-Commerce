@@ -248,6 +248,8 @@ button:hover{
   margin-top:300px;
   display: flex;
   justify-content: center;
+  width:900px;
+  margin-left: 320px;
 }
 .i4,.i5{
   width:300px;
@@ -378,13 +380,13 @@ border:1px solid grey;
 }
 .container6{
   position:relative;
-  bottom:250px;
+  bottom:200px;
   display:flex;
   justify-content:center;
   align-items:center;
   background-color:transparent;
-  box-shadow: 10px 10px 20px #888888;
-  height:500px;
+  box-shadow: 10px 10px 50px #888888;
+  height:400px;
   z-index: -1;
 }
 .text6{
@@ -399,5 +401,43 @@ border:1px solid grey;
   padding: 15px;
   border: none;
 }
+.foot{
+  display:flex;
+  justify-content:center;
+  /* align-items:center; */
+  /* background: red; */
+  /* width:400px; */
+}
+.foot1,.foot2,.foot3,foot4{
+padding-right:150px;
+}
+.foot li{
+  cursor: pointer;
+  padding-bottom:20px;
+  font-weight: bold;
+  color:white;
+}
+.foot li:hover{
+  color:rgb(190, 187, 187);
+}
+.foot i{
+  cursor: pointer;
+  color:white;
+}
+.foot i:hover{
+  color:rgb(190, 187, 187);
+}
 
+
+.footer{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:250px;
+  background:black;
+}
+
+.foot ul{
+  list-style:none;
+}
 
